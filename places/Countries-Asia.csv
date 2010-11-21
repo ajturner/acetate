@@ -1,0 +1,69 @@
+zoom,name,abbreviation,ISO alpha 2,ISO alpha 3,ISO numeric,land area km,population,latitude,longitude,continent
+3,Russia,Rus.,RU,RUS,643,17100000,140702000,62.43,87.54,eu
+3,China,China,CN,CHN,156,9596960,1330044000,35.00,105.00,asia
+3,India,India,IN,IND,356,3287590,1173108018,20.00,77.00,asia
+3,Kazakhstan,Kaz.,KZ,KAZ,398,2717300,15340000,48.00,68.00,asia
+3,Saudi Arabia,Sau. Ar.,SA,SAU,682,1960582,25731776,21.62,47.11,asia
+3,Indonesia,Indon.,ID,IDN,364,1919440,242968342,-5.00,120.00,ocean
+3,Iran,Iran,IR,IRN,364,1648000,76923300,32.00,53.00,asia
+3,Mongolia,Mong.,MN,MNG,496,1565000,3086918,46.00,105.00,asia
+3,Pakistan,Pak.,PK,PAK,586,803940,184404791,30.00,70.00,asia
+3,Myanmar,Mya.,MM,MMR,104,678500,53414374,22.00,98.00,asia
+3,Afghanistan,Afg.,AF,AFG,4,647500,29121286,33.00,66.00,asia
+3,Yemen,Yemen,YE,YEM,887,527970,23495361,15.50,47.50,asia
+3,Thailand,Thai.,TH,THA,764,514000,67089500,15.00,100.00,asia
+3,Turkmenistan,Turkmen.,TM,TKM,795,488100,4940916,40.00,60.00,asia
+3,Papua New Guinea,Pap. N. Gui.,PG,PNG,598,462840,6064515,-6.00,147.00,ocean
+3,Iraq,Iraq,IQ,IRQ,368,437072,29671605,33.00,44.00,asia
+3,Japan,Japan,JP,JPN,392,377835,127288000,37.23,138.25,asia
+3,Malaysia,Malay.,MY,MYS,458,329750,28274729,2.50,112.50,ocean
+3,Vietnam,Viet.,VN,VNM,704,329560,89571130,16.17,107.83,asia
+3,Philippines,Phil.,PH,PHL,608,300000,99900177,13.00,122.00,ocean
+3,Oman,Oman,OM,OMN,512,212460,2967717,21.00,57.00,asia
+3,Kyrgyzstan,Kyrg.,KG,KGZ,417,198500,5508626,41.00,75.00,asia
+3,Syria,Syria,SY,SYR,760,185180,22198110,35.00,38.00,asia
+3,Bangladesh,Bngl.,BD,BGD,50,144000,156118464,24.00,90.00,asia
+3,Nepal,Nepal,NP,NPL,524,140800,28951852,28.00,84.00,asia
+3,N. Korea,N. Kor.,KP,PRK,408,120540,22912177,40.00,127.00,asia
+3,S. Korea,S. Kor.,KR,KOR,410,98480,48422644,37.00,127.50,asia
+3,Azerbaijan,Azer.,AZ,AZE,31,86600,8303512,40.50,47.50,asia
+3,United Arab Emirates,U.A.E.,AE,ARE,784,82880,4975593,24.00,54.00,asia
+3,Sri Lanka,Sri L.,LK,LKA,144,65610,21513990,7.00,81.00,asia
+3,Solomon Is.,Sol. Is.,SB,SLB,90,28450,559198,-8.00,159.00,ocean
+3,Israel,Isr.,IL,ISR,376,20770,7353985,31.18,34.88,asia
+3,Fiji,Fiji,FJ,FJI,242,18270,875983,-18.00,178.00,ocean
+3,Micronesia,Micron.,FM,FSM,583,702,108105,5.00,152.00,ocean
+3,Marshall Is.,Marsh. Is.,MH,MHL,584,181.3,65859,10.00,167.00,ocean
+4,Uzbekistan,Uzb.,UZ,UZB,860,447400,27865738,41.00,64.00,asia
+4,Laos,Laos,LA,LAO,418,236800,6368162,18.00,105.00,asia
+4,Cambodia,Camb.,KH,KHM,116,181040,14453680,13.00,105.00,asia
+4,Tajikistan,Taj.,TJ,TJK,762,143100,7487489,39.00,71.00,asia
+4,Jordan,Jord.,JO,JOR,400,92300,6407085,31.00,36.00,asia
+4,Georgia,Geor.,GE,GEO,268,69700,4630000,42.00,43.50,asia
+4,Bhutan,Bhu.,BT,BTN,64,47000,699847,27.50,90.50,asia
+4,Armenia,Arm.,AM,ARM,51,29800,2968000,40.00,45.00,asia
+4,New Caledonia,N. Cal.,NC,NCL,540,19060,216494,-21.50,165.50,ocean
+4,Kuwait,Kuw.,KW,KWT,414,17820,2789132,29.50,47.75,asia
+4,East Timor,E. Timor,TL,TLS,626,15007,1154625,-8.83,125.75,ocean
+4,Vanuatu,Vanuatu,VU,VUT,548,12200,221552,-16.00,167.00,ocean
+4,Qatar,Qatar,QA,QAT,634,11437,840926,25.50,51.25,asia
+4,Lebanon,Leb.,LB,LBN,422,10400,4125247,33.83,35.83,asia
+4,Brunei,Bru.,BN,BRN,96,5770,395027,4.50,114.67,ocean
+4,French Polynesia,Fr. Poly.,PF,PYF,258,4167,270485,-15.00,-140.00,ocean
+4,Samoa,Samoa,WS,WSM,882,2944,192001,-13.80,-172.18,ocean
+4,Comoros,Com.,KM,COM,174,2170,773407,-12.17,44.25,ocean
+4,N. Marianna Is.,N. Mar. Is.,MP,MNP,580,1007,60000,17.00,145.00,ocean
+4,Kiribati,Kir.,KI,KIR,296,811,92533,-5.00,-170.00,ocean
+4,Tonga,Tonga,TO,TON,776,748,122580,-20.00,-175.00,ocean
+4,Singapore,Sing.,SG,SGP,702,692.7,4701069,1.37,103.80,asia
+4,Bahrain,Bahr.,BH,BHR,48,665,738004,26.00,50.50,asia
+4,Palau,Palau,PW,PLW,585,458,20303,7.46,134.56,ocean
+4,Maldives,Mald.,MV,MDV,462,300,395650,3.20,73.00,asia
+4,Wallis and Futuna,Wal./F.,WF,WLF,876,274,16025,-13.30,-176.20,ocean
+4,Cook Is.,Cook Is.,CK,COK,184,240,21388,-21.25,-159.79,ocean
+4,American Samoa,Am. Sam.,AS,ASM,16,199,57881,-14.33,-170.00,ocean
+4,British Indian Ocean Territory,B.I.O.T.,IO,IOT,86,60,4000,-6.00,72.00,asia
+4,Pitcairn,Pit.,PN,PCN,612,47,46,-25.07,-130.10,ocean
+4,Tuvalu,Tuvalu,TV,TUV,798,26,10472,-8.00,178.00,ocean
+4,Nauru,Nauru,NR,NRU,520,21,9267,-0.53,166.92,ocean
+4,Tokelau,Tok.,TK,TKL,772,10,1433,-9.00,-171.75,ocean

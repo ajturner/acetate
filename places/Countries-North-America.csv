@@ -1,0 +1,34 @@
+zoom,name,abbreviation,ISO alpha 2,ISO alpha 3,ISO numeric,land area km,population,latitude,longitude,continent
+3,Canada,Can.,CA,CAN,124,9984670,33679000,58.08,-101.95,na
+3,United States,U.S.,US,USA,840,9629091,310232863,39.76,-98.50,na
+3,Greenland,Green.,GL,GRL,304,2166086,56375,72.00,-40.00,na
+3,Mexico,Mex.,MX,MEX,484,1972550,112468855,23.00,-102.00,na
+3,Cuba,Cuba,CU,CUB,192,110860,11423000,22.00,-79.50,cen
+4,Nicaragua,Nic.,NI,NIC,558,129494,5995928,13.00,-85.00,cen
+4,Honduras,Hond.,HN,HND,340,112090,7989415,15.00,-86.50,cen
+4,Guatemala,Guat.,GT,GTM,320,108890,13550440,15.50,-90.25,cen
+4,Panama,Pan.,PA,PAN,591,78200,3410676,9.00,-80.00,cen
+4,Costa Rica,C.R.,CR,CRI,188,51100,4516220,10.00,-84.00,cen
+4,Dominican Republic,Dom. Rep.,DO,DOM,214,48730,9823821,19.00,-70.67,na
+4,Haiti,Haiti,HT,HTI,332,27750,9648924,19.00,-72.42,na
+4,Belize,Belize,BZ,BLZ,84,22966,314522,17.25,-88.75,cen
+4,El Salvador,El Sal.,SV,SLV,222,21040,6052064,13.50,-88.92,cen
+4,Bahamas,Bah.,BS,BHS,44,13940,301790,24.00,-76.00,na
+4,Jamaica,Jam.,JM,JAM,388,10991,2847232,18.25,-77.50,na
+4,Puerto Rico,P.R.,PR,PRI,630,9104,3916632,18.25,-66.50,na
+4,Trinidad and Tobago,Trin.,TT,TTO,780,5128,1228691,11.00,-61.00,na
+4,Guadeloupe,Gaud.,GP,GLP,312,1628,443000,16.25,-61.58,na
+4,Martinique,Mart.,MQ,MTQ,474,1100,432900,14.67,-61.00,na
+4,Dominica,Dom.,DM,DMA,212,754,72813,15.50,-61.33,na
+4,St. Lucia,St. Luc.,LC,LCA,662,616,160922,13.88,-60.97,na
+4,Antigua and Barbuda,Antig.,AG,ATG,28,443,86754,17.05,-61.80,na
+4,Barbados,Barb.,BB,BRB,52,431,285653,13.17,-59.53,na
+4,Turks and Caicos Is.,T./C. Is.,TC,TCA,796,430,20556,21.73,-71.58,na
+4,St. Vincent and the Grenadines,St. Vin.,VC,VCT,670,389,120000,13.25,-61.20,na
+4,Virgin Is. (U.S.),V.I.U.S.,VI,VIR,850,352,108708,18.35,-64.98,na
+4,Grenada,Gren.,GD,GRD,308,344,107818,12.12,-61.67,na
+4,Cayman Is.,Cay. Is.,KY,CYM,136,262,44270,19.50,-80.67,na
+4,St. Kitts and Nevis,St. K./N.,KN,KNA,659,261,49898,17.33,-62.75,na
+4,St. Pierre and Miquelon,St. P./M.,PM,SPM,666,242,6125,46.84,-56.32,na
+4,British Virgin Is.,Br. Vir. Is.,VG,VGB,92,153,21730,18.50,-64.50,na
+4,Bermuda,Ber.,BM,BMU,60,53,65365,32.33,-64.75,na
