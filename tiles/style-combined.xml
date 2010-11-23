@@ -476,25 +476,25 @@
     <Rule>
       <MinScaleDenominator>50000000</MinScaleDenominator>
       <MaxScaleDenominator>99999999</MaxScaleDenominator>
-      <Filter>[place] = 'country' and [population] &lt; 25000</Filter>
+      <Filter>[place] = 'country' and [population] &lt; 50000</Filter>
       <TextSymbolizer face_name="Arial Regular" fill="#555555" name="name" size="12" />
     </Rule>
     <Rule>
       <MinScaleDenominator>50000000</MinScaleDenominator>
       <MaxScaleDenominator>99999999</MaxScaleDenominator>
-      <Filter>[place] = 'country' and [population] &gt;= 25000 and [population] &lt; 100000</Filter>
+      <Filter>[place] = 'country' and [population] &gt;= 50000 and [population] &lt; 250000</Filter>
       <TextSymbolizer face_name="Arial Regular" fill="#555555" name="name" size="12" />
     </Rule>
     <Rule>
       <MinScaleDenominator>50000000</MinScaleDenominator>
       <MaxScaleDenominator>99999999</MaxScaleDenominator>
-      <Filter>[place] = 'country' and [population] &gt;= 100000 and [population] &lt; 1000000</Filter>
+      <Filter>[place] = 'country' and [population] &gt;= 250000 and [population] &lt; 2500000</Filter>
       <TextSymbolizer face_name="Arial Regular" fill="#555555" name="name" size="12" />
     </Rule>
     <Rule>
       <MinScaleDenominator>50000000</MinScaleDenominator>
       <MaxScaleDenominator>99999999</MaxScaleDenominator>
-      <Filter>[place] = 'country' and [population] &gt;= 1000000</Filter>
+      <Filter>[place] = 'country' and [population] &gt;= 2500000</Filter>
       <TextSymbolizer face_name="Arial Regular" fill="#555555" name="name" size="12" />
     </Rule>
   </Style>
@@ -509,8 +509,14 @@
     <Rule>
       <MinScaleDenominator>25000000</MinScaleDenominator>
       <MaxScaleDenominator>49999999</MaxScaleDenominator>
-      <Filter>[place] = 'city'</Filter>
+      <Filter>not [capital] = 'yes' and [place] = 'city'</Filter>
       <PointSymbolizer file="gray-point.png" />
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>25000000</MinScaleDenominator>
+      <MaxScaleDenominator>49999999</MaxScaleDenominator>
+      <Filter>[capital] = 'yes' and [place] = 'city'</Filter>
+      <PointSymbolizer file="star.png" />
     </Rule>
   </Style>
   <Layer name="layer 110" srs="+proj=longlat +datum=WGS84" status="on">
@@ -524,49 +530,49 @@
     <Rule>
       <MinScaleDenominator>25000000</MinScaleDenominator>
       <MaxScaleDenominator>49999999</MaxScaleDenominator>
-      <Filter>[place] = 'city' and [population] &lt; 25000</Filter>
+      <Filter>[place] = 'city' and [population] &lt; 50000</Filter>
       <TextSymbolizer allow_overlap="true" face_name="Arial Regular" fill="#555555" name="name" size="10" />
     </Rule>
     <Rule>
       <MinScaleDenominator>25000000</MinScaleDenominator>
       <MaxScaleDenominator>49999999</MaxScaleDenominator>
-      <Filter>[place] = 'city' and [population] &gt;= 25000 and [population] &lt; 100000</Filter>
+      <Filter>[place] = 'city' and [population] &gt;= 50000 and [population] &lt; 250000</Filter>
       <TextSymbolizer allow_overlap="true" face_name="Arial Regular" fill="#555555" name="name" size="10" />
     </Rule>
     <Rule>
       <MinScaleDenominator>25000000</MinScaleDenominator>
       <MaxScaleDenominator>49999999</MaxScaleDenominator>
-      <Filter>[place] = 'city' and [population] &gt;= 100000 and [population] &lt; 1000000</Filter>
+      <Filter>[place] = 'city' and [population] &gt;= 250000 and [population] &lt; 2500000</Filter>
       <TextSymbolizer allow_overlap="true" face_name="Arial Regular" fill="#555555" name="name" size="12" />
     </Rule>
     <Rule>
       <MinScaleDenominator>25000000</MinScaleDenominator>
       <MaxScaleDenominator>49999999</MaxScaleDenominator>
-      <Filter>[place] = 'city' and [population] &gt;= 1000000</Filter>
+      <Filter>[place] = 'city' and [population] &gt;= 2500000</Filter>
       <TextSymbolizer allow_overlap="true" face_name="Arial Regular" fill="#555555" name="name" size="12" />
     </Rule>
     <Rule>
       <MinScaleDenominator>25000000</MinScaleDenominator>
       <MaxScaleDenominator>49999999</MaxScaleDenominator>
-      <Filter>[place] = 'country' and [population] &lt; 25000</Filter>
+      <Filter>[place] = 'country' and [population] &lt; 50000</Filter>
       <TextSymbolizer face_name="Arial Bold" fill="#999999" halo_fill="#e4e3db" halo_radius="1" name="name" size="12" />
     </Rule>
     <Rule>
       <MinScaleDenominator>25000000</MinScaleDenominator>
       <MaxScaleDenominator>49999999</MaxScaleDenominator>
-      <Filter>[place] = 'country' and [population] &gt;= 25000 and [population] &lt; 100000</Filter>
+      <Filter>[place] = 'country' and [population] &gt;= 50000 and [population] &lt; 250000</Filter>
       <TextSymbolizer face_name="Arial Bold" fill="#999999" halo_fill="#e4e3db" halo_radius="1" name="name" size="12" />
     </Rule>
     <Rule>
       <MinScaleDenominator>25000000</MinScaleDenominator>
       <MaxScaleDenominator>49999999</MaxScaleDenominator>
-      <Filter>[place] = 'country' and [population] &gt;= 100000 and [population] &lt; 1000000</Filter>
+      <Filter>[place] = 'country' and [population] &gt;= 250000 and [population] &lt; 2500000</Filter>
       <TextSymbolizer face_name="Arial Bold" fill="#999999" halo_fill="#e4e3db" halo_radius="1" name="name" size="12" />
     </Rule>
     <Rule>
       <MinScaleDenominator>25000000</MinScaleDenominator>
       <MaxScaleDenominator>49999999</MaxScaleDenominator>
-      <Filter>[place] = 'country' and [population] &gt;= 1000000</Filter>
+      <Filter>[place] = 'country' and [population] &gt;= 2500000</Filter>
       <TextSymbolizer face_name="Arial Bold" fill="#999999" halo_fill="#e4e3db" halo_radius="1" name="name" size="12" />
     </Rule>
   </Style>
@@ -581,8 +587,14 @@
     <Rule>
       <MinScaleDenominator>12500000</MinScaleDenominator>
       <MaxScaleDenominator>24999999</MaxScaleDenominator>
-      <Filter>[place] = 'city'</Filter>
+      <Filter>not [capital] = 'yes' and [place] = 'city'</Filter>
       <PointSymbolizer file="gray-point.png" />
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>12500000</MinScaleDenominator>
+      <MaxScaleDenominator>24999999</MaxScaleDenominator>
+      <Filter>[capital] = 'yes' and [place] = 'city'</Filter>
+      <PointSymbolizer file="star.png" />
     </Rule>
   </Style>
   <Layer name="layer 124" srs="+proj=longlat +datum=WGS84" status="on">
@@ -596,49 +608,49 @@
     <Rule>
       <MinScaleDenominator>12500000</MinScaleDenominator>
       <MaxScaleDenominator>24999999</MaxScaleDenominator>
-      <Filter>[place] = 'city' and [population] &lt; 25000</Filter>
+      <Filter>[place] = 'city' and [population] &lt; 50000</Filter>
       <TextSymbolizer allow_overlap="true" face_name="Arial Regular" fill="#555555" name="name" size="10" />
     </Rule>
     <Rule>
       <MinScaleDenominator>12500000</MinScaleDenominator>
       <MaxScaleDenominator>24999999</MaxScaleDenominator>
-      <Filter>[place] = 'city' and [population] &gt;= 25000 and [population] &lt; 100000</Filter>
+      <Filter>[place] = 'city' and [population] &gt;= 50000 and [population] &lt; 250000</Filter>
       <TextSymbolizer allow_overlap="true" face_name="Arial Regular" fill="#555555" name="name" size="10" />
     </Rule>
     <Rule>
       <MinScaleDenominator>12500000</MinScaleDenominator>
       <MaxScaleDenominator>24999999</MaxScaleDenominator>
-      <Filter>[place] = 'city' and [population] &gt;= 100000 and [population] &lt; 1000000</Filter>
+      <Filter>[place] = 'city' and [population] &gt;= 250000 and [population] &lt; 2500000</Filter>
       <TextSymbolizer allow_overlap="true" face_name="Arial Regular" fill="#555555" name="name" size="10" />
     </Rule>
     <Rule>
       <MinScaleDenominator>12500000</MinScaleDenominator>
       <MaxScaleDenominator>24999999</MaxScaleDenominator>
-      <Filter>[place] = 'city' and [population] &gt;= 1000000</Filter>
+      <Filter>[place] = 'city' and [population] &gt;= 2500000</Filter>
       <TextSymbolizer allow_overlap="true" face_name="Arial Regular" fill="#555555" name="name" size="15" />
     </Rule>
     <Rule>
       <MinScaleDenominator>12500000</MinScaleDenominator>
       <MaxScaleDenominator>24999999</MaxScaleDenominator>
-      <Filter>[place] = 'country' and [population] &lt; 25000</Filter>
+      <Filter>[place] = 'country' and [population] &lt; 50000</Filter>
       <TextSymbolizer face_name="Arial Bold" fill="#999999" halo_fill="#e4e3db" halo_radius="1" name="name" size="15" />
     </Rule>
     <Rule>
       <MinScaleDenominator>12500000</MinScaleDenominator>
       <MaxScaleDenominator>24999999</MaxScaleDenominator>
-      <Filter>[place] = 'country' and [population] &gt;= 25000 and [population] &lt; 100000</Filter>
+      <Filter>[place] = 'country' and [population] &gt;= 50000 and [population] &lt; 250000</Filter>
       <TextSymbolizer face_name="Arial Bold" fill="#999999" halo_fill="#e4e3db" halo_radius="1" name="name" size="15" />
     </Rule>
     <Rule>
       <MinScaleDenominator>12500000</MinScaleDenominator>
       <MaxScaleDenominator>24999999</MaxScaleDenominator>
-      <Filter>[place] = 'country' and [population] &gt;= 100000 and [population] &lt; 1000000</Filter>
+      <Filter>[place] = 'country' and [population] &gt;= 250000 and [population] &lt; 2500000</Filter>
       <TextSymbolizer face_name="Arial Bold" fill="#999999" halo_fill="#e4e3db" halo_radius="1" name="name" size="15" />
     </Rule>
     <Rule>
       <MinScaleDenominator>12500000</MinScaleDenominator>
       <MaxScaleDenominator>24999999</MaxScaleDenominator>
-      <Filter>[place] = 'country' and [population] &gt;= 1000000</Filter>
+      <Filter>[place] = 'country' and [population] &gt;= 2500000</Filter>
       <TextSymbolizer face_name="Arial Bold" fill="#999999" halo_fill="#e4e3db" halo_radius="1" name="name" size="15" />
     </Rule>
   </Style>
@@ -653,43 +665,13 @@
     <Rule>
       <MinScaleDenominator>6500000</MinScaleDenominator>
       <MaxScaleDenominator>12499999</MaxScaleDenominator>
-      <Filter>not [name] = 'Prague' and not [name] = 'Washington' and not [name] = 'Warsaw' and not [name] = 'Berlin' and not [name] = 'Paris' and not [name] = 'Brussels' and [place] = 'city'</Filter>
+      <Filter>not [capital] = 'yes' and [place] = 'city'</Filter>
       <PointSymbolizer file="gray-point.png" />
     </Rule>
     <Rule>
       <MinScaleDenominator>6500000</MinScaleDenominator>
       <MaxScaleDenominator>12499999</MaxScaleDenominator>
-      <Filter>[name] = 'Berlin' and [place] = 'city'</Filter>
-      <PointSymbolizer file="star.png" />
-    </Rule>
-    <Rule>
-      <MinScaleDenominator>6500000</MinScaleDenominator>
-      <MaxScaleDenominator>12499999</MaxScaleDenominator>
-      <Filter>[name] = 'Brussels' and [place] = 'city'</Filter>
-      <PointSymbolizer file="star.png" />
-    </Rule>
-    <Rule>
-      <MinScaleDenominator>6500000</MinScaleDenominator>
-      <MaxScaleDenominator>12499999</MaxScaleDenominator>
-      <Filter>[name] = 'Paris' and [place] = 'city'</Filter>
-      <PointSymbolizer file="star.png" />
-    </Rule>
-    <Rule>
-      <MinScaleDenominator>6500000</MinScaleDenominator>
-      <MaxScaleDenominator>12499999</MaxScaleDenominator>
-      <Filter>[name] = 'Prague' and [place] = 'city'</Filter>
-      <PointSymbolizer file="star.png" />
-    </Rule>
-    <Rule>
-      <MinScaleDenominator>6500000</MinScaleDenominator>
-      <MaxScaleDenominator>12499999</MaxScaleDenominator>
-      <Filter>[name] = 'Warsaw' and [place] = 'city'</Filter>
-      <PointSymbolizer file="star.png" />
-    </Rule>
-    <Rule>
-      <MinScaleDenominator>6500000</MinScaleDenominator>
-      <MaxScaleDenominator>12499999</MaxScaleDenominator>
-      <Filter>[name] = 'Washington' and [place] = 'city'</Filter>
+      <Filter>[capital] = 'yes' and [place] = 'city'</Filter>
       <PointSymbolizer file="star.png" />
     </Rule>
   </Style>
@@ -704,49 +686,49 @@
     <Rule>
       <MinScaleDenominator>6500000</MinScaleDenominator>
       <MaxScaleDenominator>12499999</MaxScaleDenominator>
-      <Filter>[place] = 'city' and [population] &lt; 25000</Filter>
+      <Filter>[place] = 'city' and [population] &lt; 50000</Filter>
       <TextSymbolizer allow_overlap="true" face_name="Arial Regular" fill="#555555" name="name" size="10" />
     </Rule>
     <Rule>
       <MinScaleDenominator>6500000</MinScaleDenominator>
       <MaxScaleDenominator>12499999</MaxScaleDenominator>
-      <Filter>[place] = 'city' and [population] &gt;= 25000 and [population] &lt; 100000</Filter>
+      <Filter>[place] = 'city' and [population] &gt;= 50000 and [population] &lt; 250000</Filter>
       <TextSymbolizer allow_overlap="true" face_name="Arial Regular" fill="#555555" name="name" size="10" />
     </Rule>
     <Rule>
       <MinScaleDenominator>6500000</MinScaleDenominator>
       <MaxScaleDenominator>12499999</MaxScaleDenominator>
-      <Filter>[place] = 'city' and [population] &gt;= 100000 and [population] &lt; 1000000</Filter>
+      <Filter>[place] = 'city' and [population] &gt;= 250000 and [population] &lt; 2500000</Filter>
       <TextSymbolizer allow_overlap="true" face_name="Arial Regular" fill="#555555" name="name" size="13" />
     </Rule>
     <Rule>
       <MinScaleDenominator>6500000</MinScaleDenominator>
       <MaxScaleDenominator>12499999</MaxScaleDenominator>
-      <Filter>[place] = 'city' and [population] &gt;= 1000000</Filter>
+      <Filter>[place] = 'city' and [population] &gt;= 2500000</Filter>
       <TextSymbolizer allow_overlap="true" face_name="Arial Regular" fill="#555555" name="name" size="18" />
     </Rule>
     <Rule>
       <MinScaleDenominator>6500000</MinScaleDenominator>
       <MaxScaleDenominator>12499999</MaxScaleDenominator>
-      <Filter>[place] = 'country' and [population] &lt; 25000</Filter>
+      <Filter>[place] = 'country' and [population] &lt; 50000</Filter>
       <TextSymbolizer face_name="Arial Bold" fill="#b4b4b4" halo_fill="#e4e3db" halo_radius="1" name="name" size="18" wrap_width="80" />
     </Rule>
     <Rule>
       <MinScaleDenominator>6500000</MinScaleDenominator>
       <MaxScaleDenominator>12499999</MaxScaleDenominator>
-      <Filter>[place] = 'country' and [population] &gt;= 25000 and [population] &lt; 100000</Filter>
+      <Filter>[place] = 'country' and [population] &gt;= 50000 and [population] &lt; 250000</Filter>
       <TextSymbolizer face_name="Arial Bold" fill="#b4b4b4" halo_fill="#e4e3db" halo_radius="1" name="name" size="18" wrap_width="80" />
     </Rule>
     <Rule>
       <MinScaleDenominator>6500000</MinScaleDenominator>
       <MaxScaleDenominator>12499999</MaxScaleDenominator>
-      <Filter>[place] = 'country' and [population] &gt;= 100000 and [population] &lt; 1000000</Filter>
+      <Filter>[place] = 'country' and [population] &gt;= 250000 and [population] &lt; 2500000</Filter>
       <TextSymbolizer face_name="Arial Bold" fill="#b4b4b4" halo_fill="#e4e3db" halo_radius="1" name="name" size="18" wrap_width="80" />
     </Rule>
     <Rule>
       <MinScaleDenominator>6500000</MinScaleDenominator>
       <MaxScaleDenominator>12499999</MaxScaleDenominator>
-      <Filter>[place] = 'country' and [population] &gt;= 1000000</Filter>
+      <Filter>[place] = 'country' and [population] &gt;= 2500000</Filter>
       <TextSymbolizer face_name="Arial Bold" fill="#b4b4b4" halo_fill="#e4e3db" halo_radius="1" name="name" size="18" wrap_width="80" />
     </Rule>
   </Style>
@@ -761,8 +743,14 @@
     <Rule>
       <MinScaleDenominator>3000000</MinScaleDenominator>
       <MaxScaleDenominator>6499999</MaxScaleDenominator>
-      <Filter>[place] = 'city'</Filter>
+      <Filter>not [capital] = 'yes' and [place] = 'city'</Filter>
       <PointSymbolizer file="gray-point.png" />
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>3000000</MinScaleDenominator>
+      <MaxScaleDenominator>6499999</MaxScaleDenominator>
+      <Filter>[capital] = 'yes' and [place] = 'city'</Filter>
+      <PointSymbolizer file="star.png" />
     </Rule>
   </Style>
   <Layer name="layer 152" srs="+proj=longlat +datum=WGS84" status="on">
@@ -776,49 +764,49 @@
     <Rule>
       <MinScaleDenominator>3000000</MinScaleDenominator>
       <MaxScaleDenominator>6499999</MaxScaleDenominator>
-      <Filter>[place] = 'city' and [population] &lt; 25000</Filter>
+      <Filter>[place] = 'city' and [population] &lt; 50000</Filter>
       <TextSymbolizer allow_overlap="true" face_name="Arial Regular" fill="#555555" name="name" size="10" />
     </Rule>
     <Rule>
       <MinScaleDenominator>3000000</MinScaleDenominator>
       <MaxScaleDenominator>6499999</MaxScaleDenominator>
-      <Filter>[place] = 'city' and [population] &gt;= 25000 and [population] &lt; 100000</Filter>
+      <Filter>[place] = 'city' and [population] &gt;= 50000 and [population] &lt; 250000</Filter>
       <TextSymbolizer allow_overlap="true" face_name="Arial Regular" fill="#555555" name="name" size="10" />
     </Rule>
     <Rule>
       <MinScaleDenominator>3000000</MinScaleDenominator>
       <MaxScaleDenominator>6499999</MaxScaleDenominator>
-      <Filter>[place] = 'city' and [population] &gt;= 100000 and [population] &lt; 1000000</Filter>
+      <Filter>[place] = 'city' and [population] &gt;= 250000 and [population] &lt; 2500000</Filter>
       <TextSymbolizer allow_overlap="true" face_name="Arial Regular" fill="#555555" name="name" size="13" />
     </Rule>
     <Rule>
       <MinScaleDenominator>3000000</MinScaleDenominator>
       <MaxScaleDenominator>6499999</MaxScaleDenominator>
-      <Filter>[place] = 'city' and [population] &gt;= 1000000</Filter>
+      <Filter>[place] = 'city' and [population] &gt;= 2500000</Filter>
       <TextSymbolizer allow_overlap="true" face_name="Arial Regular" fill="#555555" name="name" size="18" />
     </Rule>
     <Rule>
       <MinScaleDenominator>3000000</MinScaleDenominator>
       <MaxScaleDenominator>6499999</MaxScaleDenominator>
-      <Filter>[place] = 'country' and [population] &lt; 25000</Filter>
+      <Filter>[place] = 'country' and [population] &lt; 50000</Filter>
       <TextSymbolizer face_name="Arial Bold" fill="#b4b4b4" halo_fill="#e4e3db" halo_radius="1" name="name" size="18" wrap_width="80" />
     </Rule>
     <Rule>
       <MinScaleDenominator>3000000</MinScaleDenominator>
       <MaxScaleDenominator>6499999</MaxScaleDenominator>
-      <Filter>[place] = 'country' and [population] &gt;= 25000 and [population] &lt; 100000</Filter>
+      <Filter>[place] = 'country' and [population] &gt;= 50000 and [population] &lt; 250000</Filter>
       <TextSymbolizer face_name="Arial Bold" fill="#b4b4b4" halo_fill="#e4e3db" halo_radius="1" name="name" size="18" wrap_width="80" />
     </Rule>
     <Rule>
       <MinScaleDenominator>3000000</MinScaleDenominator>
       <MaxScaleDenominator>6499999</MaxScaleDenominator>
-      <Filter>[place] = 'country' and [population] &gt;= 100000 and [population] &lt; 1000000</Filter>
+      <Filter>[place] = 'country' and [population] &gt;= 250000 and [population] &lt; 2500000</Filter>
       <TextSymbolizer face_name="Arial Bold" fill="#b4b4b4" halo_fill="#e4e3db" halo_radius="1" name="name" size="18" wrap_width="80" />
     </Rule>
     <Rule>
       <MinScaleDenominator>3000000</MinScaleDenominator>
       <MaxScaleDenominator>6499999</MaxScaleDenominator>
-      <Filter>[place] = 'country' and [population] &gt;= 1000000</Filter>
+      <Filter>[place] = 'country' and [population] &gt;= 2500000</Filter>
       <TextSymbolizer face_name="Arial Bold" fill="#b4b4b4" halo_fill="#e4e3db" halo_radius="1" name="name" size="18" wrap_width="80" />
     </Rule>
   </Style>
@@ -833,8 +821,14 @@
     <Rule>
       <MinScaleDenominator>1500000</MinScaleDenominator>
       <MaxScaleDenominator>2999999</MaxScaleDenominator>
-      <Filter>[place] = 'city'</Filter>
+      <Filter>not [capital] = 'yes' and [place] = 'city'</Filter>
       <PointSymbolizer file="gray-point.png" />
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>1500000</MinScaleDenominator>
+      <MaxScaleDenominator>2999999</MaxScaleDenominator>
+      <Filter>[capital] = 'yes' and [place] = 'city'</Filter>
+      <PointSymbolizer file="star.png" />
     </Rule>
   </Style>
   <Layer name="layer 166" srs="+proj=longlat +datum=WGS84" status="on">
@@ -848,49 +842,49 @@
     <Rule>
       <MinScaleDenominator>1500000</MinScaleDenominator>
       <MaxScaleDenominator>2999999</MaxScaleDenominator>
-      <Filter>[place] = 'city' and [population] &lt; 25000</Filter>
+      <Filter>[place] = 'city' and [population] &lt; 50000</Filter>
       <TextSymbolizer allow_overlap="true" face_name="Arial Regular" fill="#555555" name="name" size="10" />
     </Rule>
     <Rule>
       <MinScaleDenominator>1500000</MinScaleDenominator>
       <MaxScaleDenominator>2999999</MaxScaleDenominator>
-      <Filter>[place] = 'city' and [population] &gt;= 25000 and [population] &lt; 100000</Filter>
+      <Filter>[place] = 'city' and [population] &gt;= 50000 and [population] &lt; 250000</Filter>
       <TextSymbolizer allow_overlap="true" face_name="Arial Regular" fill="#555555" name="name" size="13" />
     </Rule>
     <Rule>
       <MinScaleDenominator>1500000</MinScaleDenominator>
       <MaxScaleDenominator>2999999</MaxScaleDenominator>
-      <Filter>[place] = 'city' and [population] &gt;= 100000 and [population] &lt; 1000000</Filter>
+      <Filter>[place] = 'city' and [population] &gt;= 250000 and [population] &lt; 2500000</Filter>
       <TextSymbolizer allow_overlap="true" face_name="Arial Regular" fill="#555555" name="name" size="18" />
     </Rule>
     <Rule>
       <MinScaleDenominator>1500000</MinScaleDenominator>
       <MaxScaleDenominator>2999999</MaxScaleDenominator>
-      <Filter>[place] = 'city' and [population] &gt;= 1000000</Filter>
+      <Filter>[place] = 'city' and [population] &gt;= 2500000</Filter>
       <TextSymbolizer allow_overlap="true" face_name="Arial Regular" fill="#555555" name="name" size="18" />
     </Rule>
     <Rule>
       <MinScaleDenominator>1500000</MinScaleDenominator>
       <MaxScaleDenominator>2999999</MaxScaleDenominator>
-      <Filter>[place] = 'country' and [population] &lt; 25000</Filter>
+      <Filter>[place] = 'country' and [population] &lt; 50000</Filter>
       <TextSymbolizer face_name="Arial Bold" fill="#b4b4b4" halo_fill="#e4e3db" halo_radius="1" name="name" size="18" wrap_width="80" />
     </Rule>
     <Rule>
       <MinScaleDenominator>1500000</MinScaleDenominator>
       <MaxScaleDenominator>2999999</MaxScaleDenominator>
-      <Filter>[place] = 'country' and [population] &gt;= 25000 and [population] &lt; 100000</Filter>
+      <Filter>[place] = 'country' and [population] &gt;= 50000 and [population] &lt; 250000</Filter>
       <TextSymbolizer face_name="Arial Bold" fill="#b4b4b4" halo_fill="#e4e3db" halo_radius="1" name="name" size="18" wrap_width="80" />
     </Rule>
     <Rule>
       <MinScaleDenominator>1500000</MinScaleDenominator>
       <MaxScaleDenominator>2999999</MaxScaleDenominator>
-      <Filter>[place] = 'country' and [population] &gt;= 100000 and [population] &lt; 1000000</Filter>
+      <Filter>[place] = 'country' and [population] &gt;= 250000 and [population] &lt; 2500000</Filter>
       <TextSymbolizer face_name="Arial Bold" fill="#b4b4b4" halo_fill="#e4e3db" halo_radius="1" name="name" size="18" wrap_width="80" />
     </Rule>
     <Rule>
       <MinScaleDenominator>1500000</MinScaleDenominator>
       <MaxScaleDenominator>2999999</MaxScaleDenominator>
-      <Filter>[place] = 'country' and [population] &gt;= 1000000</Filter>
+      <Filter>[place] = 'country' and [population] &gt;= 2500000</Filter>
       <TextSymbolizer face_name="Arial Bold" fill="#b4b4b4" halo_fill="#e4e3db" halo_radius="1" name="name" size="18" wrap_width="80" />
     </Rule>
   </Style>
@@ -5234,7 +5228,7 @@
         <CssParameter name="stroke">#ffffff</CssParameter>
         <CssParameter name="stroke-linecap">round</CssParameter>
         <CssParameter name="stroke-linejoin">round</CssParameter>
-        <CssParameter name="stroke-width">6.0</CssParameter>
+        <CssParameter name="stroke-width">0.5</CssParameter>
       </LineSymbolizer>
     </Rule>
     <Rule>
