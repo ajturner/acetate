@@ -37,11 +37,11 @@ defaults = {
     'points': 'out-points.json',
     'labels': 'out-labels.json',
     'countries': 'Countries.csv',
-    'countryfont': ('DejaVuSans.ttf', 12),
-    'pop1mfont': ('DejaVuSans.ttf', 14),
-    'pop100kfont': ('DejaVuSans.ttf', 12),
-    'pop25kfont': ('DejaVuSans.ttf', 12),
-    'popotherfont': ('DejaVuSans.ttf', 12)
+    'countryfont': ('fonts/DejaVuSans.ttf', 12),
+    'pop25mfont': ('fonts/DejaVuSans.ttf', 14),
+    'pop250kfont': ('fonts/DejaVuSans.ttf', 12),
+    'pop50kfont': ('fonts/DejaVuSans.ttf', 12),
+    'popotherfont': ('fonts/DejaVuSans.ttf', 12)
     }
 
 optparser.set_defaults(**defaults)
@@ -64,14 +64,14 @@ optparser.add_option('-z', '--zoom', dest='zoom',
 optparser.add_option('--country-font', dest='countryfont',
                      type='string', nargs=2, help='Font filename and point size for countries. Default value is "%s", %d.' % (defaults['popotherfont'][0], defaults['popotherfont'][1]))
 
-optparser.add_option('--pop1m-font', dest='pop1mfont',
-                     type='string', nargs=2, help='Font filename and point size for cities of population 1m+. Default value is "%s", %d.' % (defaults['pop1mfont'][0], defaults['pop1mfont'][1]))
+optparser.add_option('--pop25m-font', dest='pop25mfont',
+                     type='string', nargs=2, help='Font filename and point size for cities of population 2.5m+. Default value is "%s", %d.' % (defaults['pop25mfont'][0], defaults['pop25mfont'][1]))
 
-optparser.add_option('--pop100k-font', dest='pop100kfont',
-                     type='string', nargs=2, help='Font filename and point size for cities of population 100k+. Default value is "%s", %d.' % (defaults['pop100kfont'][0], defaults['pop100kfont'][1]))
+optparser.add_option('--pop250k-font', dest='pop250kfont',
+                     type='string', nargs=2, help='Font filename and point size for cities of population 250k+. Default value is "%s", %d.' % (defaults['pop250kfont'][0], defaults['pop250kfont'][1]))
 
-optparser.add_option('--pop25k-font', dest='pop25kfont',
-                     type='string', nargs=2, help='Font filename and point size for cities of population 25k+. Default value is "%s", %d.' % (defaults['pop25kfont'][0], defaults['pop25kfont'][1]))
+optparser.add_option('--pop50k-font', dest='pop50kfont',
+                     type='string', nargs=2, help='Font filename and point size for cities of population 50k+. Default value is "%s", %d.' % (defaults['pop50kfont'][0], defaults['pop50kfont'][1]))
 
 optparser.add_option('--popother-font', dest='popotherfont',
                      type='string', nargs=2, help='Font filename and point size for smaller cities. Default value is "%s", %d.' % (defaults['popotherfont'][0], defaults['popotherfont'][1]))
@@ -307,6 +307,76 @@ class City:
             in_range |= other.in_range(self, False)
 
         return in_range
+    
+class HighZoomCity(City):
+    
+    def __init__(self, name, rank, zoom, population, geonameid, location, position, font):
+        self.name = name
+        self.rank = rank
+        self.zoom = zoom
+        self.population = population
+        self.geonameid = geonameid
+        self.location = location
+        self.position = position
+
+        self.buffer = 2
+        
+        self._original = deepcopy(position)
+        self._label_shape = None
+        
+        self._width, self._height = font.getsize(self.name)
+
+        self._update_label_shape()
+
+    def __repr__(self):
+        return '<H.Z. City: %s>' % self.name
+    
+    def __hash__(self):
+        return id(self)
+
+    def _update_label_shape(self):
+        """
+        """
+        x, y = self.position.x, self.position.y
+        
+        x1, y1 = x - self._width/2, y - self._height/2
+        x2, y2 = x + self._width/2, y + self._height/2
+        
+        self._label_shape = Polygon(((x1, y1), (x1, y2), (x2, y2), (x2, y1), (x1, y1)))
+    
+    def mask_shape(self):
+        return self._label_shape.buffer(self.buffer).envelope
+    
+    def move(self):
+        x = (random() - .5) * self._width
+        y = (random() - .5) * self._height
+    
+        self.position.x = self._original.x + x
+        self.position.y = self._original.y + y
+        
+        self._update_label_shape()
+    
+    def placement_energy(self):
+        x = 2 * (self.position.x - self._original.x) / self._width
+        y = 2 * (self.position.y - self._original.y) / self._width
+        
+        return hypot(x, y) ** 2
+    
+    def overlap_energy(self, other):
+        if self.overlaps(other):
+            return min(10.0 / self.rank, 10.0 / other.rank)
+
+        return 0.0
+    
+    def in_range(self, other, reflexive=True):
+        range = hypot(self._width + self.buffer*2, self._height + self.buffer*2)
+        distance = hypot(self.position.x - other.position.x, self.position.y - other.position.y)
+        in_range = distance <= range
+        
+        if reflexive:
+            in_range |= other.in_range(self, False)
+
+        return in_range
 
 class Places:
 
@@ -314,6 +384,7 @@ class Places:
         self._places = []
         self._energy = 0.0
         self._neighbors = {}
+        self._moveable = []
 
     def __iter__(self):
         return iter(self._places)
@@ -332,13 +403,16 @@ class Places:
         self._energy += place.placement_energy()
         self._places.append(place)
         
+        if place.zoom <= 7:
+            self._moveable.append(place)
+        
         return self._neighbors[place]
 
     def energy(self):
         return self._energy
     
     def move(self):
-        place = choice(self._places)
+        place = choice(self._moveable)
         
         for other in self._neighbors[place]:
             self._energy -= place.overlap_energy(other)
@@ -383,7 +457,7 @@ def postprocess_args(opts, args):
     
     fonts['country'] = truetype(fontfile, fontsize, encoding='unic')
 
-    for opt in ('pop1mfont', 'pop100kfont', 'pop25kfont', 'popotherfont'):
+    for opt in ('pop25mfont', 'pop250kfont', 'pop50kfont', 'popotherfont'):
         population = opt[3:-4]
         fontfile, fontsize = getattr(opts, opt)
         
@@ -471,12 +545,12 @@ def load_places(countriesfile, inputfiles, fonts, zoom):
             except ValueError:
                 population = None
 
-            if population >= 1000000:
-                font = fonts['1m']
-            elif population >= 100000:
-                font = fonts['100k']
-            elif population >= 25000:
-                font = fonts['25k']
+            if population >= 2500000:
+                font = fonts['25m']
+            elif population >= 250000:
+                font = fonts['250k']
+            elif population >= 50000:
+                font = fonts['50k']
             else:
                 font = fonts['other']
             
@@ -493,7 +567,10 @@ def load_places(countriesfile, inputfiles, fonts, zoom):
                       'rank': int(row['zoom']) - 3
                      }
             
-            neighbors = places.add(City(**kwargs))
+            if zoom >= 9:
+                neighbors = places.add(HighZoomCity(**kwargs))
+            else:
+                neighbors = places.add(City(**kwargs))
             
             count += 1
             print '%5d)' % count, row['name'], location, point
@@ -525,7 +602,14 @@ if __name__ == '__main__':
     countriesfile, inputfiles, pointsfile, labelsfile, minutes, zoom, fonts \
         = postprocess_args(opts, args)
 
+    capitals = set( [geonameid.strip() for geonameid in open('Capitals.txt')] )
     places = load_places(countriesfile, inputfiles, fonts, zoom)
+
+    print '-' * 80
+    
+    print len(places._moveable), 'moveable places vs.', len(places._places), 'others'
+
+    print '-' * 80
     
     def state_energy(places):
         return places.energy()
@@ -560,6 +644,7 @@ if __name__ == '__main__':
                       'rank': place.rank,
                       'population': place.population,
                       'geonameid': getattr(place, 'geonameid', None),
+                      'capital': (getattr(place, 'geonameid', '') in capitals and 'yes' or 'no'),
                       'place': (place.__class__ is Country and 'country' or 'city')
                      }
     
@@ -640,12 +725,12 @@ if __name__ == '__main__':
 
         if place.__class__ is Country:
             font = fonts['country']
-        elif place.population >= 1000000:
-            font = fonts['1m']
-        elif place.population >= 100000:
-            font = fonts['100k']
-        elif place.population >= 25000:
-            font = fonts['25k']
+        elif place.population >= 2500000:
+            font = fonts['25m']
+        elif place.population >= 250000:
+            font = fonts['250k']
+        elif place.population >= 50000:
+            font = fonts['50k']
         else:
             font = fonts['other']
         
