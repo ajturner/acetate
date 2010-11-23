@@ -2296,7 +2296,7 @@
       <Parameter name="table">
                 (SELECT way,
                         (CASE WHEN highway = 'motorway'
-                              THEN ''
+                              THEN ref
                               ELSE name
                               END) AS name,
                         (CASE WHEN highway = 'motorway' AND CHAR_LENGTH(ref) BETWEEN 2 AND 15

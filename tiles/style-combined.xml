@@ -5715,6 +5715,12 @@
     <Rule>
       <MinScaleDenominator>2500</MinScaleDenominator>
       <MaxScaleDenominator>4999</MaxScaleDenominator>
+      <Filter>[highway] = 'motorway'</Filter>
+      <TextSymbolizer face_name="Arial Regular" fill="#777777" halo_fill="#ffffff" halo_radius="1" max_char_angle_delta="30" name="name" placement="line" size="16" spacing="300" />
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>2500</MinScaleDenominator>
+      <MaxScaleDenominator>4999</MaxScaleDenominator>
       <Filter>[highway] = 'primary'</Filter>
       <TextSymbolizer face_name="Arial Regular" fill="#777777" halo_fill="#ffffff" halo_radius="1" max_char_angle_delta="30" name="name" placement="line" size="14" spacing="100" />
     </Rule>
@@ -5739,6 +5745,12 @@
     <Rule>
       <MinScaleDenominator>5000</MinScaleDenominator>
       <MaxScaleDenominator>12499</MaxScaleDenominator>
+      <Filter>[highway] = 'motorway'</Filter>
+      <TextSymbolizer face_name="Arial Regular" fill="#777777" halo_fill="#ffffff" halo_radius="1" max_char_angle_delta="30" name="name" placement="line" size="14" spacing="300" />
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <MaxScaleDenominator>12499</MaxScaleDenominator>
       <Filter>[highway] = 'primary'</Filter>
       <TextSymbolizer face_name="Arial Regular" fill="#777777" halo_fill="#ffffff" halo_radius="1" max_char_angle_delta="30" name="name" placement="line" size="12" spacing="100" />
     </Rule>
@@ -5763,6 +5775,12 @@
     <Rule>
       <MinScaleDenominator>12500</MinScaleDenominator>
       <MaxScaleDenominator>24999</MaxScaleDenominator>
+      <Filter>[highway] = 'motorway'</Filter>
+      <TextSymbolizer face_name="Arial Regular" fill="#777777" halo_fill="#ffffff" halo_radius="1" max_char_angle_delta="30" name="name" placement="line" size="12" spacing="300" />
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>12500</MinScaleDenominator>
+      <MaxScaleDenominator>24999</MaxScaleDenominator>
       <Filter>[highway] = 'primary'</Filter>
       <TextSymbolizer face_name="Arial Regular" fill="#777777" halo_fill="#ffffff" halo_radius="1" max_char_angle_delta="30" name="name" placement="line" size="12" spacing="100" />
     </Rule>
@@ -5787,6 +5805,12 @@
     <Rule>
       <MinScaleDenominator>25000</MinScaleDenominator>
       <MaxScaleDenominator>49999</MaxScaleDenominator>
+      <Filter>[highway] = 'motorway'</Filter>
+      <TextSymbolizer dy="7" face_name="Arial Regular" fill="#777777" halo_fill="#d9d9d3" halo_radius="1" max_char_angle_delta="30" name="name" placement="line" size="11" spacing="300" />
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>25000</MinScaleDenominator>
+      <MaxScaleDenominator>49999</MaxScaleDenominator>
       <Filter>[highway] = 'primary'</Filter>
       <TextSymbolizer dy="7" face_name="Arial Regular" fill="#777777" halo_fill="#d9d9d3" halo_radius="1" max_char_angle_delta="30" name="name" placement="line" size="11" spacing="100" />
     </Rule>
@@ -5805,6 +5829,12 @@
     <Rule>
       <MinScaleDenominator>50000</MinScaleDenominator>
       <MaxScaleDenominator>99999</MaxScaleDenominator>
+      <Filter>[highway] = 'motorway'</Filter>
+      <TextSymbolizer dy="6" face_name="Arial Regular" fill="#777777" halo_fill="#d9d9d3" halo_radius="1" max_char_angle_delta="30" name="name" placement="line" size="10" spacing="300" />
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>50000</MinScaleDenominator>
+      <MaxScaleDenominator>99999</MaxScaleDenominator>
       <Filter>[highway] = 'primary'</Filter>
       <TextSymbolizer dy="6" face_name="Arial Regular" fill="#777777" halo_fill="#d9d9d3" halo_radius="1" max_char_angle_delta="30" name="name" placement="line" size="10" spacing="100" />
     </Rule>
@@ -5813,6 +5843,12 @@
       <MaxScaleDenominator>99999</MaxScaleDenominator>
       <Filter>[highway] = 'trunk'</Filter>
       <TextSymbolizer dy="6" face_name="Arial Regular" fill="#777777" halo_fill="#d9d9d3" halo_radius="1" max_char_angle_delta="30" name="name" placement="line" size="10" spacing="100" />
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>100000</MinScaleDenominator>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[highway] = 'motorway'</Filter>
+      <TextSymbolizer dy="6" face_name="Arial Regular" fill="#777777" halo_fill="#d9d9d3" halo_radius="1" max_char_angle_delta="30" name="name" placement="line" size="10" spacing="300" />
     </Rule>
     <Rule>
       <MinScaleDenominator>100000</MinScaleDenominator>
@@ -5841,7 +5877,7 @@
       <Parameter name="table">
                 (SELECT way,
                         (CASE WHEN highway = 'motorway'
-                              THEN ''
+                              THEN ref
                               ELSE name
                               END) AS name,
                         (CASE WHEN highway = 'motorway' AND CHAR_LENGTH(ref) BETWEEN 2 AND 15
