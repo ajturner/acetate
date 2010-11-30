@@ -1,6 +1,6 @@
 F=fonts
 
-all: place-labels-z3.shp place-labels-z4.shp place-labels-z5.shp place-labels-z6.shp place-labels-z7.shp place-labels-z8.shp place-labels-z9.shp place-labels-z10.shp
+all: place-labels-z3.shp place-labels-z4.shp place-labels-z5.shp place-labels-z6.shp place-labels-z7.shp place-labels-z8.shp place-labels-z9.shp place-labels-z10.shp place-labels-z11plus.shp
 
 
 
@@ -59,6 +59,13 @@ place-labels-z10.shp: place-labels-z10.json
 
 	rm -f place-points-z10.shp place-points-z10.dbf place-points-z10.shx place-points-z10.prj
 	ogr2ogr place-points-z10.shp place-points-z10.json
+
+place-labels-z11plus.shp: place-labels-z11plus.json
+	rm -f place-labels-z11plus.shp place-labels-z11plus.dbf place-labels-z11plus.shx place-labels-z11plus.prj
+	ogr2ogr place-labels-z11plus.shp place-labels-z11plus.json
+
+	rm -f place-points-z11plus.shp place-points-z11plus.dbf place-points-z11plus.shx place-points-z11plus.prj
+	ogr2ogr place-points-z11plus.shp place-points-z11plus.json
 
 
 
@@ -141,7 +148,7 @@ au-labels-z9.json: Countries-Australia-NZ.csv Australia-New-Zealand-z4-z5.txt Au
 	
 place-labels-z10.json: na-labels-z10.json eu-labels-z10.json as-labels-z10.json sa-labels-z10.json au-labels-z10.json af-labels-z10.json
 	python join-geojson.py na-points-z10.json eu-points-z10.json as-points-z10.json sa-points-z10.json au-points-z10.json af-points-z10.json > place-points-z10.json
-	python join-geojson.py na-labels-z10.json eu-labels-z10.json as-labels-z10.json sa-labels-z10.json au-labels-z10.json af-labels-z10.json > place-labels-z9.json
+	python join-geojson.py na-labels-z10.json eu-labels-z10.json as-labels-z10.json sa-labels-z10.json au-labels-z10.json af-labels-z10.json > place-labels-z10.json
 
 na-labels-z10.json: Countries-North-America.csv US-z4-z8.txt US-z9-z11.txt.gz Canada-z4-z8.txt Canada-z9-z11.txt.gz Central-America-z4-z5.txt Central-America-z6-z11.txt.gz
 	python arrange.py -z 10 -m  90 -p na-points-z10.json -l na-labels-z10.json --country-font "$F/Arial Bold.ttf" 18 --pop25m-font "$F/Arial.ttf" 18 --pop250k-font "$F/Arial.ttf" 18 --pop50k-font "$F/Arial.ttf" 13 --popother-font "$F/Arial.ttf" 10 -c Countries-North-America.csv US-z4-z8.txt US-z9-z11.txt.gz Canada-z4-z8.txt Canada-z9-z11.txt.gz Central-America-z4-z5.txt Central-America-z6-z11.txt.gz
@@ -156,6 +163,23 @@ af-labels-z10.json: Countries-Africa.csv Africa-z4-z5.txt Africa-z6-z11.txt.gz
 au-labels-z10.json: Countries-Australia-NZ.csv Australia-New-Zealand-z4-z5.txt Australia-New-Zealand-z6-z11.txt.gz
 	python arrange.py -z 10 -m  20 -p au-points-z10.json -l au-labels-z10.json --country-font "$F/Arial Bold.ttf" 18 --pop25m-font "$F/Arial.ttf" 18 --pop250k-font "$F/Arial.ttf" 18 --pop50k-font "$F/Arial.ttf" 13 --popother-font "$F/Arial.ttf" 10 -c Countries-Australia-NZ.csv Australia-New-Zealand-z4-z5.txt Australia-New-Zealand-z6-z11.txt.gz
 	
+place-labels-z11plus.json: na-labels-z11plus.json eu-labels-z11plus.json as-labels-z11plus.json sa-labels-z11plus.json au-labels-z11plus.json af-labels-z11plus.json
+	python join-geojson.py na-points-z11plus.json eu-points-z11plus.json as-points-z11plus.json sa-points-z11plus.json au-points-z11plus.json af-points-z11plus.json > place-points-z11plus.json
+	python join-geojson.py na-labels-z11plus.json eu-labels-z11plus.json as-labels-z11plus.json sa-labels-z11plus.json au-labels-z11plus.json af-labels-z11plus.json > place-labels-z11plus.json
+
+na-labels-z11plus.json: Countries-North-America.csv US-z4-z8.txt US-z9-z11.txt.gz Canada-z4-z8.txt Canada-z9-z11.txt.gz Central-America-z4-z5.txt Central-America-z6-z11.txt.gz
+	python arrange.py -z 11 --no-anneal -p na-points-z11plus.json -l na-labels-z11plus.json --country-font "$F/Arial Bold.ttf" 18 --pop25m-font "$F/Arial.ttf" 18 --pop250k-font "$F/Arial.ttf" 18 --pop50k-font "$F/Arial.ttf" 13 --popother-font "$F/Arial.ttf" 10 -c Countries-North-America.csv US-z4-z8.txt US-z9-z11.txt.gz Canada-z4-z8.txt Canada-z9-z11.txt.gz Central-America-z4-z5.txt Central-America-z6-z11.txt.gz
+sa-labels-z11plus.json: Countries-South-America.csv South-America-z4-z5.txt South-America-z6-z11.txt.gz
+	python arrange.py -z 11 --no-anneal -p sa-points-z11plus.json -l sa-labels-z11plus.json --country-font "$F/Arial Bold.ttf" 18 --pop25m-font "$F/Arial.ttf" 18 --pop250k-font "$F/Arial.ttf" 18 --pop50k-font "$F/Arial.ttf" 13 --popother-font "$F/Arial.ttf" 10 -c Countries-South-America.csv South-America-z4-z5.txt South-America-z6-z11.txt.gz
+eu-labels-z11plus.json: Countries-Europe.csv Europe-z4-z6.txt Europe-z7-z11.txt.gz
+	python arrange.py -z 11 --no-anneal -p eu-points-z11plus.json -l eu-labels-z11plus.json --country-font "$F/Arial Bold.ttf" 18 --pop25m-font "$F/Arial.ttf" 18 --pop250k-font "$F/Arial.ttf" 18 --pop50k-font "$F/Arial.ttf" 13 --popother-font "$F/Arial.ttf" 10 -c Countries-Europe.csv Europe-z4-z6.txt Europe-z7-z11.txt.gz
+as-labels-z11plus.json: Countries-Asia.csv Asia-z4-z6.txt Asia-z7-z11.txt.gz
+	python arrange.py -z 11 --no-anneal -p as-points-z11plus.json -l as-labels-z11plus.json --country-font "$F/Arial Bold.ttf" 18 --pop25m-font "$F/Arial.ttf" 18 --pop250k-font "$F/Arial.ttf" 18 --pop50k-font "$F/Arial.ttf" 13 --popother-font "$F/Arial.ttf" 10 -c Countries-Asia.csv Asia-z4-z6.txt Asia-z7-z11.txt.gz
+af-labels-z11plus.json: Countries-Africa.csv Africa-z4-z5.txt Africa-z6-z11.txt.gz
+	python arrange.py -z 11 --no-anneal -p af-points-z11plus.json -l af-labels-z11plus.json --country-font "$F/Arial Bold.ttf" 18 --pop25m-font "$F/Arial.ttf" 18 --pop250k-font "$F/Arial.ttf" 18 --pop50k-font "$F/Arial.ttf" 13 --popother-font "$F/Arial.ttf" 10 -c Countries-Africa.csv Africa-z4-z5.txt Africa-z6-z11.txt.gz
+au-labels-z11plus.json: Countries-Australia-NZ.csv Australia-New-Zealand-z4-z5.txt Australia-New-Zealand-z6-z11.txt.gz
+	python arrange.py -z 11 --no-anneal -p au-points-z11plus.json -l au-labels-z11plus.json --country-font "$F/Arial Bold.ttf" 18 --pop25m-font "$F/Arial.ttf" 18 --pop250k-font "$F/Arial.ttf" 18 --pop50k-font "$F/Arial.ttf" 13 --popother-font "$F/Arial.ttf" 10 -c Countries-Australia-NZ.csv Australia-New-Zealand-z4-z5.txt Australia-New-Zealand-z6-z11.txt.gz
+	
 
 
 clean:
@@ -167,6 +191,7 @@ clean:
 	rm -f place-labels-z8.json na-labels-z8.json eu-labels-z8.json sa-labels-z8.json au-labels-z8.json af-labels-z8.json
 	rm -f place-labels-z9.json na-labels-z9.json eu-labels-z9.json sa-labels-z9.json au-labels-z9.json af-labels-z9.json
 	rm -f place-labels-z10.json na-labels-z10.json eu-labels-z10.json sa-labels-z10.json au-labels-z10.json af-labels-z10.json
+	rm -f place-labels-z11plus.json na-labels-z11plus.json eu-labels-z11plus.json sa-labels-z11plus.json au-labels-z11plus.json af-labels-z11plus.json
 
 	rm -f place-points-z3.json
 	rm -f place-points-z4.json
@@ -176,6 +201,7 @@ clean:
 	rm -f place-points-z8.json na-points-z8.json eu-points-z8.json sa-points-z8.json au-points-z8.json af-points-z8.json
 	rm -f place-points-z9.json na-points-z9.json eu-points-z9.json sa-points-z9.json au-points-z9.json af-points-z9.json
 	rm -f place-points-z10.json na-points-z10.json eu-points-z10.json sa-points-z10.json au-points-z10.json af-points-z10.json
+	rm -f place-points-z11plus.json na-points-z11plus.json eu-points-z11plus.json sa-points-z11plus.json au-points-z11plus.json af-points-z11plus.json
 
 	rm -f place-labels-z3.shp place-labels-z3.dbf place-labels-z3.shx place-labels-z3.prj
 	rm -f place-labels-z4.shp place-labels-z4.dbf place-labels-z4.shx place-labels-z4.prj
@@ -185,6 +211,7 @@ clean:
 	rm -f place-labels-z8.shp place-labels-z8.dbf place-labels-z8.shx place-labels-z8.prj
 	rm -f place-labels-z9.shp place-labels-z9.dbf place-labels-z9.shx place-labels-z9.prj
 	rm -f place-labels-z10.shp place-labels-z10.dbf place-labels-z10.shx place-labels-z10.prj
+	rm -f place-labels-z11plus.shp place-labels-z11plus.dbf place-labels-z11plus.shx place-labels-z11plus.prj
 
 	rm -f place-points-z3.shp place-points-z3.dbf place-points-z3.shx place-points-z3.prj
 	rm -f place-points-z4.shp place-points-z4.dbf place-points-z4.shx place-points-z4.prj
@@ -193,4 +220,5 @@ clean:
 	rm -f place-points-z7.shp place-points-z7.dbf place-points-z7.shx place-points-z7.prj
 	rm -f place-points-z8.shp place-points-z8.dbf place-points-z8.shx place-points-z8.prj
 	rm -f place-points-z9.shp place-points-z9.dbf place-points-z9.shx place-points-z9.prj
-	rm -f place-points-z9.shp place-points-z9.dbf place-points-z9.shx place-points-z9.prj
+	rm -f place-points-z10.shp place-points-z10.dbf place-points-z10.shx place-points-z10.prj
+	rm -f place-points-z11plus.shp place-points-z11plus.dbf place-points-z11plus.shx place-points-z11plus.prj
