@@ -19,17 +19,17 @@ Using Acetate layers
 
 You can use Acetate tile layers by using the following template urls in a web map
 
-- Simple Basemap ([preview](http://http://acetate.geoiq.com/tiles/acetate-simple/preview.html))
+- Basemap ([preview](http://acetate.geoiq.com/tiles/acetate-base/preview.html))
  - http://acetate.geoiq.com/tiles/acetate-simple/{Z}/{X}/{Y}.png
-- Basemap, Hillshading ([preview](http://http://acetate.geoiq.com/tiles/terrain/preview.html))
+- Basemap, Hillshading ([preview](http://acetate.geoiq.com/tiles/terrain/preview.html))
  - http://acetate.geoiq.com/tiles/terrain/preview.html
-- Basemap, Hillshading, Placename labels ([preview](http://http://acetate.geoiq.com/tiles/terrain/preview.html))
+- Basemap, Hillshading, Placename labels ([preview](http://acetate.geoiq.com/tiles/acetate-hillshading/preview.html))
  - http://acetate.geoiq.com/tiles/acetate-hillshading/{Z}/{X}/{Y}.png
-- Roads, Placename labels ([preview](http://http://acetate.geoiq.com/tiles/acetate-fg/preview.html))
+- Roads, Placename labels ([preview](http://acetate.geoiq.com/tiles/acetate-fg/preview.html))
  - http://acetate.geoiq.com/tiles/acetate-fg/{Z}/{X}/{Y}.png
-- Roads ([preview](http://http://acetate.geoiq.com/tiles/acetate-roads/preview.html))
+- Roads ([preview](http://acetate.geoiq.com/tiles/acetate-roads/preview.html))
  - http://acetate.geoiq.com/tiles/acetate-roads/{Z}/{X}/{Y}.png
-- Placename labels ([preview](http://http://acetate.geoiq.com/tiles/acetate-roads/preview.html))
+- Placename labels ([preview](http://acetate.geoiq.com/tiles/acetate-labels/preview.html))
  - http://acetate.geoiq.com/tiles/acetate-labels/{Z}/{X}/{Y}.png
 
 Building Tiles
@@ -59,4 +59,4 @@ This step is about just placing the acetate project into a web accessible place.
 License
 =======
 
-The Acetate stylesheets are released under a [Creative Commons Attribution-ShareAlike 2.5 Generic (CC BY-SA 2.5)](http://creativecommons.org/licenses/by-sa/2.5/) license. They were developed by [FortiusOne](http://www.fortiusone.com/ "FortiusOne Visual Intelligence Solutions | Visual Intelligence, Smarter Decisions") and [Stamen](http://stamen.com/ "stamen design | big ideas worth pursuing").
+Acetate is released under a [Creative Commons Attribution-ShareAlike 2.5 Generic (CC BY-SA 2.5)](http://creativecommons.org/licenses/by-sa/2.5/) license. It was developed by [FortiusOne](http://www.fortiusone.com/ "FortiusOne Visual Intelligence Solutions | Visual Intelligence, Smarter Decisions") and [Stamen](http://stamen.com/ "stamen design | big ideas worth pursuing").
