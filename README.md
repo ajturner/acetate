@@ -31,6 +31,8 @@ You can use Acetate tile layers by using the following template urls in a web ma
  - http://acetate.geoiq.com/tiles/acetate-roads/{Z}/{X}/{Y}.png
 - Placename labels ([preview](http://acetate.geoiq.com/tiles/acetate-labels/preview.html))
  - http://acetate.geoiq.com/tiles/acetate-labels/{Z}/{X}/{Y}.png
+- Hillshading ([preview](http://acetate.geoiq.com/tiles/hillshading/preview.html))
+ - http://acetate.geoiq.com/tiles/hillshading/{Z}/{X}/{Y}.png
 
 Building Tiles
 ==============
