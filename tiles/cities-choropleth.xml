@@ -1,0 +1,1705 @@
+<Map bgcolor="transparent" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over">
+  <Style name="polygon style 1">
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>not [PART_COUNT] = '7' and not [PART_COUNT] = '5' and not [PART_COUNT] = '2' and not [PART_COUNT] = '0' and not [PART_COUNT] = '8' and not [PART_COUNT] = '4' and not [PART_COUNT] = '3' and not [PART_COUNT] = '1' and not [PART_COUNT] = '9' and not [PART_COUNT] = '6' and not [PART_TRACT] = '8' and not [PART_TRACT] = '3' and not [PART_TRACT] = '5' and not [PART_TRACT] = '7' and not [PART_TRACT] = '1' and not [PART_TRACT] = '6' and not [PART_TRACT] = '9' and not [PART_TRACT] = '2' and not [PART_TRACT] = '4' and not [PART_TRACT] = '0'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#ffff00</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>not [PART_COUNT] = '7' and not [PART_COUNT] = '5' and not [PART_COUNT] = '2' and not [PART_COUNT] = '0' and not [PART_COUNT] = '8' and not [PART_COUNT] = '4' and not [PART_COUNT] = '3' and not [PART_COUNT] = '1' and not [PART_COUNT] = '9' and not [PART_COUNT] = '6' and [PART_TRACT] = '0'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#ffffd4</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>not [PART_COUNT] = '7' and not [PART_COUNT] = '5' and not [PART_COUNT] = '2' and not [PART_COUNT] = '0' and not [PART_COUNT] = '8' and not [PART_COUNT] = '4' and not [PART_COUNT] = '3' and not [PART_COUNT] = '1' and not [PART_COUNT] = '9' and not [PART_COUNT] = '6' and [PART_TRACT] = '1'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#ffffd4</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>not [PART_COUNT] = '7' and not [PART_COUNT] = '5' and not [PART_COUNT] = '2' and not [PART_COUNT] = '0' and not [PART_COUNT] = '8' and not [PART_COUNT] = '4' and not [PART_COUNT] = '3' and not [PART_COUNT] = '1' and not [PART_COUNT] = '9' and not [PART_COUNT] = '6' and [PART_TRACT] = '2'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fed98e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>not [PART_COUNT] = '7' and not [PART_COUNT] = '5' and not [PART_COUNT] = '2' and not [PART_COUNT] = '0' and not [PART_COUNT] = '8' and not [PART_COUNT] = '4' and not [PART_COUNT] = '3' and not [PART_COUNT] = '1' and not [PART_COUNT] = '9' and not [PART_COUNT] = '6' and [PART_TRACT] = '3'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fed98e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>not [PART_COUNT] = '7' and not [PART_COUNT] = '5' and not [PART_COUNT] = '2' and not [PART_COUNT] = '0' and not [PART_COUNT] = '8' and not [PART_COUNT] = '4' and not [PART_COUNT] = '3' and not [PART_COUNT] = '1' and not [PART_COUNT] = '9' and not [PART_COUNT] = '6' and [PART_TRACT] = '4'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fe9929</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>not [PART_COUNT] = '7' and not [PART_COUNT] = '5' and not [PART_COUNT] = '2' and not [PART_COUNT] = '0' and not [PART_COUNT] = '8' and not [PART_COUNT] = '4' and not [PART_COUNT] = '3' and not [PART_COUNT] = '1' and not [PART_COUNT] = '9' and not [PART_COUNT] = '6' and [PART_TRACT] = '5'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fe9929</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>not [PART_COUNT] = '7' and not [PART_COUNT] = '5' and not [PART_COUNT] = '2' and not [PART_COUNT] = '0' and not [PART_COUNT] = '8' and not [PART_COUNT] = '4' and not [PART_COUNT] = '3' and not [PART_COUNT] = '1' and not [PART_COUNT] = '9' and not [PART_COUNT] = '6' and [PART_TRACT] = '6'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#d95f0e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>not [PART_COUNT] = '7' and not [PART_COUNT] = '5' and not [PART_COUNT] = '2' and not [PART_COUNT] = '0' and not [PART_COUNT] = '8' and not [PART_COUNT] = '4' and not [PART_COUNT] = '3' and not [PART_COUNT] = '1' and not [PART_COUNT] = '9' and not [PART_COUNT] = '6' and [PART_TRACT] = '7'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#d95f0e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>not [PART_COUNT] = '7' and not [PART_COUNT] = '5' and not [PART_COUNT] = '2' and not [PART_COUNT] = '0' and not [PART_COUNT] = '8' and not [PART_COUNT] = '4' and not [PART_COUNT] = '3' and not [PART_COUNT] = '1' and not [PART_COUNT] = '9' and not [PART_COUNT] = '6' and [PART_TRACT] = '8'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#993404</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>not [PART_COUNT] = '7' and not [PART_COUNT] = '5' and not [PART_COUNT] = '2' and not [PART_COUNT] = '0' and not [PART_COUNT] = '8' and not [PART_COUNT] = '4' and not [PART_COUNT] = '3' and not [PART_COUNT] = '1' and not [PART_COUNT] = '9' and not [PART_COUNT] = '6' and [PART_TRACT] = '9'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#993404</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '0' and not [PART_TRACT] = '8' and not [PART_TRACT] = '3' and not [PART_TRACT] = '5' and not [PART_TRACT] = '7' and not [PART_TRACT] = '1' and not [PART_TRACT] = '6' and not [PART_TRACT] = '9' and not [PART_TRACT] = '2' and not [PART_TRACT] = '4' and not [PART_TRACT] = '0'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#ffff00</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '0' and [PART_TRACT] = '0'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#ffffd4</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '0' and [PART_TRACT] = '1'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#ffffd4</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '0' and [PART_TRACT] = '2'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fed98e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '0' and [PART_TRACT] = '3'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fed98e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '0' and [PART_TRACT] = '4'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fe9929</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '0' and [PART_TRACT] = '5'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fe9929</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '0' and [PART_TRACT] = '6'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#d95f0e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '0' and [PART_TRACT] = '7'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#d95f0e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '0' and [PART_TRACT] = '8'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#993404</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '0' and [PART_TRACT] = '9'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#993404</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '1' and not [PART_TRACT] = '8' and not [PART_TRACT] = '3' and not [PART_TRACT] = '5' and not [PART_TRACT] = '7' and not [PART_TRACT] = '1' and not [PART_TRACT] = '6' and not [PART_TRACT] = '9' and not [PART_TRACT] = '2' and not [PART_TRACT] = '4' and not [PART_TRACT] = '0'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#ffff00</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '1' and [PART_TRACT] = '0'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#ffffd4</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '1' and [PART_TRACT] = '1'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#ffffd4</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '1' and [PART_TRACT] = '2'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fed98e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '1' and [PART_TRACT] = '3'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fed98e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '1' and [PART_TRACT] = '4'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fe9929</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '1' and [PART_TRACT] = '5'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fe9929</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '1' and [PART_TRACT] = '6'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#d95f0e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '1' and [PART_TRACT] = '7'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#d95f0e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '1' and [PART_TRACT] = '8'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#993404</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '1' and [PART_TRACT] = '9'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#993404</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '2' and not [PART_TRACT] = '8' and not [PART_TRACT] = '3' and not [PART_TRACT] = '5' and not [PART_TRACT] = '7' and not [PART_TRACT] = '1' and not [PART_TRACT] = '6' and not [PART_TRACT] = '9' and not [PART_TRACT] = '2' and not [PART_TRACT] = '4' and not [PART_TRACT] = '0'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#ffff00</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '2' and [PART_TRACT] = '0'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#ffffd4</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '2' and [PART_TRACT] = '1'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#ffffd4</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '2' and [PART_TRACT] = '2'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fed98e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '2' and [PART_TRACT] = '3'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fed98e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '2' and [PART_TRACT] = '4'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fe9929</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '2' and [PART_TRACT] = '5'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fe9929</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '2' and [PART_TRACT] = '6'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#d95f0e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '2' and [PART_TRACT] = '7'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#d95f0e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '2' and [PART_TRACT] = '8'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#993404</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '2' and [PART_TRACT] = '9'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#993404</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '3' and not [PART_TRACT] = '8' and not [PART_TRACT] = '3' and not [PART_TRACT] = '5' and not [PART_TRACT] = '7' and not [PART_TRACT] = '1' and not [PART_TRACT] = '6' and not [PART_TRACT] = '9' and not [PART_TRACT] = '2' and not [PART_TRACT] = '4' and not [PART_TRACT] = '0'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#ffff00</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '3' and [PART_TRACT] = '0'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#ffffd4</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '3' and [PART_TRACT] = '1'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#ffffd4</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '3' and [PART_TRACT] = '2'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fed98e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '3' and [PART_TRACT] = '3'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fed98e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '3' and [PART_TRACT] = '4'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fe9929</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '3' and [PART_TRACT] = '5'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fe9929</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '3' and [PART_TRACT] = '6'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#d95f0e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '3' and [PART_TRACT] = '7'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#d95f0e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '3' and [PART_TRACT] = '8'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#993404</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '3' and [PART_TRACT] = '9'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#993404</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '4' and not [PART_TRACT] = '8' and not [PART_TRACT] = '3' and not [PART_TRACT] = '5' and not [PART_TRACT] = '7' and not [PART_TRACT] = '1' and not [PART_TRACT] = '6' and not [PART_TRACT] = '9' and not [PART_TRACT] = '2' and not [PART_TRACT] = '4' and not [PART_TRACT] = '0'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#ffff00</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '4' and [PART_TRACT] = '0'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#ffffd4</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '4' and [PART_TRACT] = '1'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#ffffd4</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '4' and [PART_TRACT] = '2'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fed98e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '4' and [PART_TRACT] = '3'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fed98e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '4' and [PART_TRACT] = '4'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fe9929</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '4' and [PART_TRACT] = '5'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fe9929</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '4' and [PART_TRACT] = '6'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#d95f0e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '4' and [PART_TRACT] = '7'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#d95f0e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '4' and [PART_TRACT] = '8'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#993404</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '4' and [PART_TRACT] = '9'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#993404</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '5' and not [PART_TRACT] = '8' and not [PART_TRACT] = '3' and not [PART_TRACT] = '5' and not [PART_TRACT] = '7' and not [PART_TRACT] = '1' and not [PART_TRACT] = '6' and not [PART_TRACT] = '9' and not [PART_TRACT] = '2' and not [PART_TRACT] = '4' and not [PART_TRACT] = '0'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#ffff00</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '5' and [PART_TRACT] = '0'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#ffffd4</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '5' and [PART_TRACT] = '1'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#ffffd4</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '5' and [PART_TRACT] = '2'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fed98e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '5' and [PART_TRACT] = '3'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fed98e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '5' and [PART_TRACT] = '4'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fe9929</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '5' and [PART_TRACT] = '5'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fe9929</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '5' and [PART_TRACT] = '6'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#d95f0e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '5' and [PART_TRACT] = '7'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#d95f0e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '5' and [PART_TRACT] = '8'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#993404</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '5' and [PART_TRACT] = '9'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#993404</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '6' and not [PART_TRACT] = '8' and not [PART_TRACT] = '3' and not [PART_TRACT] = '5' and not [PART_TRACT] = '7' and not [PART_TRACT] = '1' and not [PART_TRACT] = '6' and not [PART_TRACT] = '9' and not [PART_TRACT] = '2' and not [PART_TRACT] = '4' and not [PART_TRACT] = '0'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#ffff00</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '6' and [PART_TRACT] = '0'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#ffffd4</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '6' and [PART_TRACT] = '1'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#ffffd4</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '6' and [PART_TRACT] = '2'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fed98e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '6' and [PART_TRACT] = '3'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fed98e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '6' and [PART_TRACT] = '4'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fe9929</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '6' and [PART_TRACT] = '5'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fe9929</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '6' and [PART_TRACT] = '6'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#d95f0e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '6' and [PART_TRACT] = '7'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#d95f0e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '6' and [PART_TRACT] = '8'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#993404</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '6' and [PART_TRACT] = '9'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#993404</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '7' and not [PART_TRACT] = '8' and not [PART_TRACT] = '3' and not [PART_TRACT] = '5' and not [PART_TRACT] = '7' and not [PART_TRACT] = '1' and not [PART_TRACT] = '6' and not [PART_TRACT] = '9' and not [PART_TRACT] = '2' and not [PART_TRACT] = '4' and not [PART_TRACT] = '0'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#ffff00</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '7' and [PART_TRACT] = '0'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#ffffd4</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '7' and [PART_TRACT] = '1'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#ffffd4</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '7' and [PART_TRACT] = '2'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fed98e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '7' and [PART_TRACT] = '3'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fed98e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '7' and [PART_TRACT] = '4'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fe9929</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '7' and [PART_TRACT] = '5'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fe9929</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '7' and [PART_TRACT] = '6'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#d95f0e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '7' and [PART_TRACT] = '7'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#d95f0e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '7' and [PART_TRACT] = '8'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#993404</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '7' and [PART_TRACT] = '9'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#993404</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '8' and not [PART_TRACT] = '8' and not [PART_TRACT] = '3' and not [PART_TRACT] = '5' and not [PART_TRACT] = '7' and not [PART_TRACT] = '1' and not [PART_TRACT] = '6' and not [PART_TRACT] = '9' and not [PART_TRACT] = '2' and not [PART_TRACT] = '4' and not [PART_TRACT] = '0'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#ffff00</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '8' and [PART_TRACT] = '0'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#ffffd4</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '8' and [PART_TRACT] = '1'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#ffffd4</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '8' and [PART_TRACT] = '2'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fed98e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '8' and [PART_TRACT] = '3'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fed98e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '8' and [PART_TRACT] = '4'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fe9929</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '8' and [PART_TRACT] = '5'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fe9929</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '8' and [PART_TRACT] = '6'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#d95f0e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '8' and [PART_TRACT] = '7'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#d95f0e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '8' and [PART_TRACT] = '8'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#993404</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '8' and [PART_TRACT] = '9'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#993404</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '9' and not [PART_TRACT] = '8' and not [PART_TRACT] = '3' and not [PART_TRACT] = '5' and not [PART_TRACT] = '7' and not [PART_TRACT] = '1' and not [PART_TRACT] = '6' and not [PART_TRACT] = '9' and not [PART_TRACT] = '2' and not [PART_TRACT] = '4' and not [PART_TRACT] = '0'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#ffff00</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '9' and [PART_TRACT] = '0'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#ffffd4</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '9' and [PART_TRACT] = '1'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#ffffd4</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '9' and [PART_TRACT] = '2'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fed98e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '9' and [PART_TRACT] = '3'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fed98e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '9' and [PART_TRACT] = '4'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fe9929</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '9' and [PART_TRACT] = '5'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fe9929</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '9' and [PART_TRACT] = '6'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#d95f0e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '9' and [PART_TRACT] = '7'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#d95f0e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '9' and [PART_TRACT] = '8'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#993404</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <Filter>[PART_COUNT] = '9' and [PART_TRACT] = '9'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#993404</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>not [PART_COUNT] = '7' and not [PART_COUNT] = '5' and not [PART_COUNT] = '2' and not [PART_COUNT] = '0' and not [PART_COUNT] = '8' and not [PART_COUNT] = '4' and not [PART_COUNT] = '3' and not [PART_COUNT] = '1' and not [PART_COUNT] = '9' and not [PART_COUNT] = '6' and not [PART_TRACT] = '8' and not [PART_TRACT] = '3' and not [PART_TRACT] = '5' and not [PART_TRACT] = '7' and not [PART_TRACT] = '1' and not [PART_TRACT] = '6' and not [PART_TRACT] = '9' and not [PART_TRACT] = '2' and not [PART_TRACT] = '4' and not [PART_TRACT] = '0'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#ffff00</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>not [PART_COUNT] = '7' and not [PART_COUNT] = '5' and not [PART_COUNT] = '2' and not [PART_COUNT] = '0' and not [PART_COUNT] = '8' and not [PART_COUNT] = '4' and not [PART_COUNT] = '3' and not [PART_COUNT] = '1' and not [PART_COUNT] = '9' and not [PART_COUNT] = '6' and [PART_TRACT] = '0'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#ffff00</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>not [PART_COUNT] = '7' and not [PART_COUNT] = '5' and not [PART_COUNT] = '2' and not [PART_COUNT] = '0' and not [PART_COUNT] = '8' and not [PART_COUNT] = '4' and not [PART_COUNT] = '3' and not [PART_COUNT] = '1' and not [PART_COUNT] = '9' and not [PART_COUNT] = '6' and [PART_TRACT] = '1'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#ffff00</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>not [PART_COUNT] = '7' and not [PART_COUNT] = '5' and not [PART_COUNT] = '2' and not [PART_COUNT] = '0' and not [PART_COUNT] = '8' and not [PART_COUNT] = '4' and not [PART_COUNT] = '3' and not [PART_COUNT] = '1' and not [PART_COUNT] = '9' and not [PART_COUNT] = '6' and [PART_TRACT] = '2'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#ffff00</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>not [PART_COUNT] = '7' and not [PART_COUNT] = '5' and not [PART_COUNT] = '2' and not [PART_COUNT] = '0' and not [PART_COUNT] = '8' and not [PART_COUNT] = '4' and not [PART_COUNT] = '3' and not [PART_COUNT] = '1' and not [PART_COUNT] = '9' and not [PART_COUNT] = '6' and [PART_TRACT] = '3'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#ffff00</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>not [PART_COUNT] = '7' and not [PART_COUNT] = '5' and not [PART_COUNT] = '2' and not [PART_COUNT] = '0' and not [PART_COUNT] = '8' and not [PART_COUNT] = '4' and not [PART_COUNT] = '3' and not [PART_COUNT] = '1' and not [PART_COUNT] = '9' and not [PART_COUNT] = '6' and [PART_TRACT] = '4'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#ffff00</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>not [PART_COUNT] = '7' and not [PART_COUNT] = '5' and not [PART_COUNT] = '2' and not [PART_COUNT] = '0' and not [PART_COUNT] = '8' and not [PART_COUNT] = '4' and not [PART_COUNT] = '3' and not [PART_COUNT] = '1' and not [PART_COUNT] = '9' and not [PART_COUNT] = '6' and [PART_TRACT] = '5'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#ffff00</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>not [PART_COUNT] = '7' and not [PART_COUNT] = '5' and not [PART_COUNT] = '2' and not [PART_COUNT] = '0' and not [PART_COUNT] = '8' and not [PART_COUNT] = '4' and not [PART_COUNT] = '3' and not [PART_COUNT] = '1' and not [PART_COUNT] = '9' and not [PART_COUNT] = '6' and [PART_TRACT] = '6'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#ffff00</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>not [PART_COUNT] = '7' and not [PART_COUNT] = '5' and not [PART_COUNT] = '2' and not [PART_COUNT] = '0' and not [PART_COUNT] = '8' and not [PART_COUNT] = '4' and not [PART_COUNT] = '3' and not [PART_COUNT] = '1' and not [PART_COUNT] = '9' and not [PART_COUNT] = '6' and [PART_TRACT] = '7'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#ffff00</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>not [PART_COUNT] = '7' and not [PART_COUNT] = '5' and not [PART_COUNT] = '2' and not [PART_COUNT] = '0' and not [PART_COUNT] = '8' and not [PART_COUNT] = '4' and not [PART_COUNT] = '3' and not [PART_COUNT] = '1' and not [PART_COUNT] = '9' and not [PART_COUNT] = '6' and [PART_TRACT] = '8'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#ffff00</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>not [PART_COUNT] = '7' and not [PART_COUNT] = '5' and not [PART_COUNT] = '2' and not [PART_COUNT] = '0' and not [PART_COUNT] = '8' and not [PART_COUNT] = '4' and not [PART_COUNT] = '3' and not [PART_COUNT] = '1' and not [PART_COUNT] = '9' and not [PART_COUNT] = '6' and [PART_TRACT] = '9'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#ffff00</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '0' and not [PART_TRACT] = '8' and not [PART_TRACT] = '3' and not [PART_TRACT] = '5' and not [PART_TRACT] = '7' and not [PART_TRACT] = '1' and not [PART_TRACT] = '6' and not [PART_TRACT] = '9' and not [PART_TRACT] = '2' and not [PART_TRACT] = '4' and not [PART_TRACT] = '0'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#ffffd4</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '0' and [PART_TRACT] = '0'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#ffffd4</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '0' and [PART_TRACT] = '1'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#ffffd4</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '0' and [PART_TRACT] = '2'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#ffffd4</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '0' and [PART_TRACT] = '3'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#ffffd4</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '0' and [PART_TRACT] = '4'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#ffffd4</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '0' and [PART_TRACT] = '5'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#ffffd4</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '0' and [PART_TRACT] = '6'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#ffffd4</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '0' and [PART_TRACT] = '7'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#ffffd4</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '0' and [PART_TRACT] = '8'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#ffffd4</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '0' and [PART_TRACT] = '9'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#ffffd4</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '1' and not [PART_TRACT] = '8' and not [PART_TRACT] = '3' and not [PART_TRACT] = '5' and not [PART_TRACT] = '7' and not [PART_TRACT] = '1' and not [PART_TRACT] = '6' and not [PART_TRACT] = '9' and not [PART_TRACT] = '2' and not [PART_TRACT] = '4' and not [PART_TRACT] = '0'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#ffffd4</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '1' and [PART_TRACT] = '0'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#ffffd4</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '1' and [PART_TRACT] = '1'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#ffffd4</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '1' and [PART_TRACT] = '2'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#ffffd4</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '1' and [PART_TRACT] = '3'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#ffffd4</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '1' and [PART_TRACT] = '4'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#ffffd4</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '1' and [PART_TRACT] = '5'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#ffffd4</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '1' and [PART_TRACT] = '6'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#ffffd4</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '1' and [PART_TRACT] = '7'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#ffffd4</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '1' and [PART_TRACT] = '8'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#ffffd4</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '1' and [PART_TRACT] = '9'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#ffffd4</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '2' and not [PART_TRACT] = '8' and not [PART_TRACT] = '3' and not [PART_TRACT] = '5' and not [PART_TRACT] = '7' and not [PART_TRACT] = '1' and not [PART_TRACT] = '6' and not [PART_TRACT] = '9' and not [PART_TRACT] = '2' and not [PART_TRACT] = '4' and not [PART_TRACT] = '0'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fed98e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '2' and [PART_TRACT] = '0'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fed98e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '2' and [PART_TRACT] = '1'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fed98e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '2' and [PART_TRACT] = '2'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fed98e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '2' and [PART_TRACT] = '3'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fed98e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '2' and [PART_TRACT] = '4'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fed98e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '2' and [PART_TRACT] = '5'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fed98e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '2' and [PART_TRACT] = '6'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fed98e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '2' and [PART_TRACT] = '7'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fed98e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '2' and [PART_TRACT] = '8'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fed98e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '2' and [PART_TRACT] = '9'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fed98e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '3' and not [PART_TRACT] = '8' and not [PART_TRACT] = '3' and not [PART_TRACT] = '5' and not [PART_TRACT] = '7' and not [PART_TRACT] = '1' and not [PART_TRACT] = '6' and not [PART_TRACT] = '9' and not [PART_TRACT] = '2' and not [PART_TRACT] = '4' and not [PART_TRACT] = '0'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fed98e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '3' and [PART_TRACT] = '0'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fed98e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '3' and [PART_TRACT] = '1'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fed98e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '3' and [PART_TRACT] = '2'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fed98e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '3' and [PART_TRACT] = '3'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fed98e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '3' and [PART_TRACT] = '4'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fed98e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '3' and [PART_TRACT] = '5'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fed98e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '3' and [PART_TRACT] = '6'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fed98e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '3' and [PART_TRACT] = '7'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fed98e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '3' and [PART_TRACT] = '8'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fed98e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '3' and [PART_TRACT] = '9'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fed98e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '4' and not [PART_TRACT] = '8' and not [PART_TRACT] = '3' and not [PART_TRACT] = '5' and not [PART_TRACT] = '7' and not [PART_TRACT] = '1' and not [PART_TRACT] = '6' and not [PART_TRACT] = '9' and not [PART_TRACT] = '2' and not [PART_TRACT] = '4' and not [PART_TRACT] = '0'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fe9929</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '4' and [PART_TRACT] = '0'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fe9929</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '4' and [PART_TRACT] = '1'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fe9929</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '4' and [PART_TRACT] = '2'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fe9929</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '4' and [PART_TRACT] = '3'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fe9929</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '4' and [PART_TRACT] = '4'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fe9929</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '4' and [PART_TRACT] = '5'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fe9929</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '4' and [PART_TRACT] = '6'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fe9929</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '4' and [PART_TRACT] = '7'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fe9929</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '4' and [PART_TRACT] = '8'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fe9929</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '4' and [PART_TRACT] = '9'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fe9929</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '5' and not [PART_TRACT] = '8' and not [PART_TRACT] = '3' and not [PART_TRACT] = '5' and not [PART_TRACT] = '7' and not [PART_TRACT] = '1' and not [PART_TRACT] = '6' and not [PART_TRACT] = '9' and not [PART_TRACT] = '2' and not [PART_TRACT] = '4' and not [PART_TRACT] = '0'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fe9929</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '5' and [PART_TRACT] = '0'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fe9929</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '5' and [PART_TRACT] = '1'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fe9929</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '5' and [PART_TRACT] = '2'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fe9929</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '5' and [PART_TRACT] = '3'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fe9929</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '5' and [PART_TRACT] = '4'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fe9929</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '5' and [PART_TRACT] = '5'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fe9929</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '5' and [PART_TRACT] = '6'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fe9929</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '5' and [PART_TRACT] = '7'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fe9929</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '5' and [PART_TRACT] = '8'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fe9929</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '5' and [PART_TRACT] = '9'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#fe9929</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '6' and not [PART_TRACT] = '8' and not [PART_TRACT] = '3' and not [PART_TRACT] = '5' and not [PART_TRACT] = '7' and not [PART_TRACT] = '1' and not [PART_TRACT] = '6' and not [PART_TRACT] = '9' and not [PART_TRACT] = '2' and not [PART_TRACT] = '4' and not [PART_TRACT] = '0'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#d95f0e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '6' and [PART_TRACT] = '0'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#d95f0e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '6' and [PART_TRACT] = '1'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#d95f0e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '6' and [PART_TRACT] = '2'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#d95f0e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '6' and [PART_TRACT] = '3'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#d95f0e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '6' and [PART_TRACT] = '4'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#d95f0e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '6' and [PART_TRACT] = '5'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#d95f0e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '6' and [PART_TRACT] = '6'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#d95f0e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '6' and [PART_TRACT] = '7'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#d95f0e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '6' and [PART_TRACT] = '8'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#d95f0e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '6' and [PART_TRACT] = '9'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#d95f0e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '7' and not [PART_TRACT] = '8' and not [PART_TRACT] = '3' and not [PART_TRACT] = '5' and not [PART_TRACT] = '7' and not [PART_TRACT] = '1' and not [PART_TRACT] = '6' and not [PART_TRACT] = '9' and not [PART_TRACT] = '2' and not [PART_TRACT] = '4' and not [PART_TRACT] = '0'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#d95f0e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '7' and [PART_TRACT] = '0'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#d95f0e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '7' and [PART_TRACT] = '1'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#d95f0e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '7' and [PART_TRACT] = '2'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#d95f0e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '7' and [PART_TRACT] = '3'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#d95f0e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '7' and [PART_TRACT] = '4'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#d95f0e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '7' and [PART_TRACT] = '5'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#d95f0e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '7' and [PART_TRACT] = '6'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#d95f0e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '7' and [PART_TRACT] = '7'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#d95f0e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '7' and [PART_TRACT] = '8'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#d95f0e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '7' and [PART_TRACT] = '9'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#d95f0e</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '8' and not [PART_TRACT] = '8' and not [PART_TRACT] = '3' and not [PART_TRACT] = '5' and not [PART_TRACT] = '7' and not [PART_TRACT] = '1' and not [PART_TRACT] = '6' and not [PART_TRACT] = '9' and not [PART_TRACT] = '2' and not [PART_TRACT] = '4' and not [PART_TRACT] = '0'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#993404</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '8' and [PART_TRACT] = '0'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#993404</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '8' and [PART_TRACT] = '1'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#993404</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '8' and [PART_TRACT] = '2'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#993404</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '8' and [PART_TRACT] = '3'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#993404</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '8' and [PART_TRACT] = '4'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#993404</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '8' and [PART_TRACT] = '5'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#993404</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '8' and [PART_TRACT] = '6'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#993404</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '8' and [PART_TRACT] = '7'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#993404</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '8' and [PART_TRACT] = '8'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#993404</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '8' and [PART_TRACT] = '9'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#993404</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '9' and not [PART_TRACT] = '8' and not [PART_TRACT] = '3' and not [PART_TRACT] = '5' and not [PART_TRACT] = '7' and not [PART_TRACT] = '1' and not [PART_TRACT] = '6' and not [PART_TRACT] = '9' and not [PART_TRACT] = '2' and not [PART_TRACT] = '4' and not [PART_TRACT] = '0'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#993404</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '9' and [PART_TRACT] = '0'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#993404</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '9' and [PART_TRACT] = '1'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#993404</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '9' and [PART_TRACT] = '2'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#993404</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '9' and [PART_TRACT] = '3'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#993404</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '9' and [PART_TRACT] = '4'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#993404</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '9' and [PART_TRACT] = '5'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#993404</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '9' and [PART_TRACT] = '6'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#993404</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '9' and [PART_TRACT] = '7'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#993404</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '9' and [PART_TRACT] = '8'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#993404</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+    <Rule>
+      <MinScaleDenominator>200000</MinScaleDenominator>
+      <Filter>[PART_COUNT] = '9' and [PART_TRACT] = '9'</Filter>
+      <PolygonSymbolizer>
+        <CssParameter name="fill">#993404</CssParameter>
+      </PolygonSymbolizer>
+    </Rule>
+  </Style>
+  <Layer name="layer 6" srs="+proj=longlat +datum=WGS84" status="on">
+    <StyleName>polygon style 1</StyleName>
+    <Datasource>
+      <Parameter name="type">shape</Parameter>
+      <Parameter name="file">tr06_d00_shp/tracts</Parameter>
+    </Datasource>
+  </Layer>
+</Map>

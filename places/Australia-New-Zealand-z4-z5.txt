@@ -1,0 +1,10 @@
+zoom	geonameid	name	asciiname	latitude	longitude	country code	admin1 code	population
+4	2147714	Sydney	Sydney	-33.86785	151.20732	AU		4394576
+4	2193733	Auckland	Auckland	-36.86667	174.76667	NZ		417910
+4	2158177	Melbourne	Melbourne	-37.814	144.96332	AU		3730206
+4	2174003	Brisbane	Brisbane	-27.46794	153.02809	AU		958504
+4	2063523	Perth	Perth	-31.93333	115.83333	AU		1446704
+4	2179537	Wellington	Wellington	-41.28664	174.77557	NZ		381900
+5	2078025	Adelaide	Adelaide	-34.93333	138.6	AU		1074159
+5	2172517	Canberra	Canberra	-35.28346	149.12807	AU		327700
+5	2192362	Christchurch	Christchurch	-43.53333	172.63333	NZ		363926

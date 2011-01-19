@@ -1,0 +1,17 @@
+zoom,name,abbreviation,ISO alpha 2,ISO alpha 3,ISO numeric,land area km,population,latitude,longitude,continent
+3,Brazil,Braz.,BR,BRA,76,8511965,201103330,-10.00,-55.00,sa
+3,Argentina,Arg.,AR,ARG,32,2766890,41343201,-34.00,-64.00,sa
+3,Peru,Peru,PE,PER,604,1285220,29907003,-10.00,-76.00,sa
+3,Colombia,Col.,CO,COL,170,1138910,44205293,4.00,-72.00,sa
+3,Bolivia,Bol.,BO,BOL,68,1098580,9947418,-17.00,-65.00,sa
+3,Venezuela,Ven.,VE,VEN,862,912050,27223228,8.00,-66.00,sa
+3,Chile,Chile,CL,CHL,152,756950,16746491,-32.55,-71.37,sa
+3,Paraguay,Para.,PY,PRY,600,406750,6375830,-22.99,-58.00,sa
+3,Ecuador,Ec.,EC,ECU,218,283560,14790608,-2.00,-77.50,sa
+3,Uruguay,Ur.,UY,URY,858,176220,3477000,-33.00,-56.00,sa
+4,Guyana,Guy.,GY,GUY,328,214970,748486,5.00,-59.00,sa
+4,Suriname,Sur.,SR,SUR,740,163270,492829,4.00,-56.00,sa
+4,French Guiana,Fr. Gu.,GF,GUF,254,91000,195506,4.00,-53.00,sa
+4,Falkland Is.,Falk. Is.,FK,FLK,238,12173,2638,-51.75,-59.17,sa
+4,S. Georgia,S. Geor.,GS,SGS,239,3756,1000,-54.50,-37.00,sa
+4,Netherlands Antilles,Neth. Ant.,AN,ANT,530,960,136197,12.17,-69.00,sa
