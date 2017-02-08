@@ -3,19 +3,10 @@ Acetate
 
 Acetate is a set of stylesheets that are designed specifically for geographic data visualization. It includes several layers: topographic basemap, hillshading, roads, placenames. These layers can be used individually in combination in layering with thematic data, or composited together into a single image.
 
-Take a [peek](http://acetate.geoiq.com/tiles/acetate-hillshading/preview.html)
+![](https://cloud.githubusercontent.com/assets/1218/22753542/77ec9a3e-ee0a-11e6-96c8-1bc252471f37.png)
 
 Using Acetate
 =============
-
-You can use Acetate in three ways:
-
-1. on GeoCommons:http://geocommons.com
-1. Add Acetate layers in your own map by using the Acetate tile server
-1. Render your own Acetate layer tiles
-
-Using Acetate layers
-====================
 
 You can use Acetate tile layers by using the following template urls in a web map
 
